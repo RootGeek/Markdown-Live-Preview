@@ -38,7 +38,7 @@ Ein leichter, rein clientseitiger **Markdown‑Editor mit Live‑Vorschau**, Syn
 ## 🚀 Schnellstart
 
 1. Dieses Repository clonen oder als ZIP laden
-2. `index.html` im Browser öffnen
+2. `markdown.html` im Browser öffnen
 3. Schreiben – rechts die Live‑Preview genießen
 
 > Hinweis: Keine Server‑Komponenten. Alles läuft im Browser.
