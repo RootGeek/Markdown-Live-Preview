@@ -12,7 +12,7 @@
        style="border:1px solid #000; border-radius:4px;">
 </a>
 
-Ein leichter, rein clientseitiger **Markdown‑Editor mit Live‑Vorschau**, Syntax‑Highlighting, Wort‑/Zeichenzähler, Tastenkürzeln, synchronisiertem Scrollen, **Drag‑Resize** zwischen Editor & Preview sowie **HTML‑Export** als fertige, druckfreundliche Seite – **ohne Build‑Schritt, ohne Backend**. Einfach `markdown.html` im Browser öffnen und losschreiben.
+Ein leichter, rein clientseitiger **Markdown‑Editor mit Live‑Vorschau**, Syntax‑Highlighting, Wort‑/Zeichenzähler, Tastenkürzeln, synchronisiertem Scrollen, **Drag‑Resize** zwischen Editor & Preview sowie **HTML‑Export** als fertige, druckfreundliche Seite – **ohne Build‑Schritt, ohne Backend**. Einfach `index.html` im Browser öffnen und losschreiben.
 
 ---
 
@@ -43,7 +43,7 @@ Ein leichter, rein clientseitiger **Markdown‑Editor mit Live‑Vorschau**, Syn
 ## 🚀 Schnellstart
 
 1. Dieses Repository clonen oder als ZIP laden
-2. `markdown.html` im Browser öffnen
+2. `index.html` im Browser öffnen
 3. Schreiben – rechts die Live‑Preview genießen
 
 > Hinweis: Keine Server‑Komponenten. Alles läuft im Browser.
@@ -84,7 +84,7 @@ Der Button **„📄 HTML Download"** erstellt eine vollständige, eigenständig
 
 ## 🛠️ Anpassungen
 
-- **Buttons/Toolbar**: In `markdown.html` im Bereich `.toolbar` erweitern/anpassen
+- **Buttons/Toolbar**: In `index.html` im Bereich `.toolbar` erweitern/anpassen
 - **Styles**: Inlined CSS im `<style>`‑Block – Farben/Abstände einfach änderbar
 - **marked/highlight.js**: Versionen via CDN‑URLs im `<head>` justieren
 - **Export‑Theme**: Export‑Styles im Template der `downloadHTML()`‑Funktion anpassen
