@@ -1,6 +1,6 @@
 <h1>
   <a href="https://rootgeek.github.io/Markdown-Live-Preview/">
-    📝 Markdown Live Preview <small><small>(Link)</small></small>
+    📝 Markdown Live Preview <sup><small>(Link)</small></sup>
   </a>
 </h1>
 
