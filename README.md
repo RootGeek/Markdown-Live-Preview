@@ -4,7 +4,6 @@
   </a>
 </h1>
 
-
 <a href="https://postimg.cc/qNHbFpjT">
   <img src="https://i.postimg.cc/RZNkNFtN/Markdown.png"
        alt="Markdown Live Preview Screenshot"
@@ -12,100 +11,100 @@
        style="border:1px solid #000; border-radius:4px;">
 </a>
 
-Ein leichter, rein clientseitiger **Markdown‑Editor mit Live‑Vorschau**, Syntax‑Highlighting, Wort‑/Zeichenzähler, Tastenkürzeln, synchronisiertem Scrollen, **Drag‑Resize** zwischen Editor & Preview sowie **HTML‑Export** als fertige, druckfreundliche Seite – **ohne Build‑Schritt, ohne Backend**. Einfach `index.html` im Browser öffnen und losschreiben.
+A lightweight, purely client-side **Markdown editor with live preview**, syntax highlighting, word/character counter, keyboard shortcuts, synchronized scrolling, **drag-resize** between editor & preview, and **HTML export** as a ready-to-print page – **no build step, no backend**. Simply open `index.html` in your browser and start writing.
 
 ---
 
 ## ✨ Features
 
-- **Live‑Vorschau**: Sofortiges Rendern während du schreibst (marked + highlight.js)
-- **Syntax‑Highlighting** für Codeblöcke (Auto‑Erkennung)
-- **Toolbar‑Aktionen**: **Bold**, *Italic*, `Code`, ~~Strike~~, `H2`, `H3`, Liste, Zitat, Code‑Block, Link
-- **Wort‑ & Zeichenzähler** in Echtzeit
-- **Synchronisiertes Scrollen** zwischen Editor & Vorschau
-- **Panel‑Resize** via Drag (Editor/Preview prozentual verstellbar)
-- **Autosave** im `localStorage` (Offline‑fähig)
-- **HTML‑Export**: Generiert eine eigenständige, hübsch formatierte HTML‑Datei mit Datumskopf, Druck‑Styles & responsivem Layout
-- **Copy‑to‑Clipboard**: Exportiertes HTML direkt in die Zwischenablage kopieren
-- **Mobile‑Responsive**: Auf kleinen Displays als vertikaler Split
-- **Tastenkürzel**: Strg/⌘+B, Strg/⌘+I, Strg/⌘+K, Tab‑Einrückung
+- **Live Preview**: Instant rendering while you type (marked + highlight.js)
+- **Syntax Highlighting** for code blocks (auto-detection)
+- **Toolbar Actions**: **Bold**, *Italic*, `Code`, ~~Strike~~, `H2`, `H3`, List, Quote, Code Block, Link
+- **Word & Character Counter** in real-time
+- **Synchronized Scrolling** between editor & preview
+- **Panel Resize** via drag (editor/preview proportionally adjustable)
+- **Autosave** in `localStorage` (offline capable)
+- **HTML Export**: Generates a standalone, beautifully formatted HTML file with date header, print styles & responsive layout
+- **Copy to Clipboard**: Copy exported HTML directly to clipboard
+- **Mobile Responsive**: Vertical split on small displays
+- **Keyboard Shortcuts**: Ctrl/⌘+B, Ctrl/⌘+I, Ctrl/⌘+K, Tab indentation
 
 ---
 
-## 🧱 Tech‑Stack
+## 🧱 Tech Stack
 
-- **[marked](https://github.com/markedjs/marked)** (CDN) – Markdown → HTML, GFM & Zeilenumbrüche aktiv
-- **[highlight.js](https://highlightjs.org/)** (CDN) – Auto‑Erkennung & Syntax‑Highlighting
-- **Vanilla HTML/CSS/JS** – Kein Build, kein Framework, sofort startklar
-
----
-
-## 🚀 Schnellstart
-
-1. Dieses Repository clonen oder als ZIP laden
-2. `index.html` im Browser öffnen
-3. Schreiben – rechts die Live‑Preview genießen
-
-> Hinweis: Keine Server‑Komponenten. Alles läuft im Browser.
+- **[marked](https://github.com/markedjs/marked)** (CDN) – Markdown → HTML, GFM & line breaks active
+- **[highlight.js](https://highlightjs.org/)** (CDN) – Auto-detection & syntax highlighting
+- **Vanilla HTML/CSS/JS** – No build, no framework, ready to go
 
 ---
 
-## 🧭 Bedienung
+## 🚀 Quick Start
 
-- Links: **Markdown Editor**
-- Rechts: **Live Preview**
-- **Toolbar** für gängige Markdown‑Snippets
-- **Resize‑Handle** (Mitte) zum Anpassen der Spaltenbreite
-- **Autosave**: Inhalte werden automatisch in `localStorage` gesichert
-- **Copy HTML**: gerendertes HTML in die Zwischenablage
-- **📄 HTML Download**: generiert eine eigenständige HTML‑Datei mit schönem Layout
+1. Clone this repository or download as ZIP
+2. Open `index.html` in your browser
+3. Start writing – enjoy the live preview on the right
+
+> Note: No server components. Everything runs in the browser.
 
 ---
 
-## ⌨️ Tastenkürzel
+## 🧭 Usage
 
-| Aktion | Shortcut (Windows/Linux) | Shortcut (macOS) |
+- Left: **Markdown Editor**
+- Right: **Live Preview**
+- **Toolbar** for common Markdown snippets
+- **Resize Handle** (center) to adjust column width
+- **Autosave**: Content is automatically saved in `localStorage`
+- **Copy HTML**: rendered HTML to clipboard
+- **📄 HTML Download**: generates a standalone HTML file with beautiful layout
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Action | Shortcut (Windows/Linux) | Shortcut (macOS) |
 |---|---|---|
-| Fett | Strg + B | ⌘ + B |
-| Kursiv | Strg + I | ⌘ + I |
-| Link einfügen | Strg + K | ⌘ + K |
-| Einrücken | Tab | Tab |
+| Bold | Ctrl + B | ⌘ + B |
+| Italic | Ctrl + I | ⌘ + I |
+| Insert Link | Ctrl + K | ⌘ + K |
+| Indent | Tab | Tab |
 
 ---
 
-## 🧾 HTML‑Export
+## 🧾 HTML Export
 
-Der Button **„📄 HTML Download"** erstellt eine vollständige, eigenständige HTML‑Datei:
-- Enthält Datumskopf, sauberes Typo‑Layout, Druck‑Styles & Responsiveness
-- Code‑Blöcke werden formatiert
-- Keine externen Abhängigkeiten nötig, Datei lokal speicher‑ & druckbar
-
----
-
-## 🛠️ Anpassungen
-
-- **Buttons/Toolbar**: In `index.html` im Bereich `.toolbar` erweitern/anpassen
-- **Styles**: Inlined CSS im `<style>`‑Block – Farben/Abstände einfach änderbar
-- **marked/highlight.js**: Versionen via CDN‑URLs im `<head>` justieren
-- **Export‑Theme**: Export‑Styles im Template der `downloadHTML()`‑Funktion anpassen
+The **"📄 HTML Download"** button creates a complete, standalone HTML file:
+- Contains date header, clean typography layout, print styles & responsiveness
+- Code blocks are formatted
+- No external dependencies needed, file is locally saveable & printable
 
 ---
 
-## 🌐 Kompatibilität
+## 🛠️ Customization
 
-- Moderne Chromium‑, Firefox‑ und Safari‑Versionen
-- Mobil & Desktop, Responsive Layout
-
----
-
-## ⚠️ Bekannte Einschränkungen
-
-- **Sicherheit**: Gerendertes HTML wird im Preview‑DIV gesetzt; keine fremden, untrusted Inhalte einfügen
-- **LocalStorage**: Inhalte sind gerätespezifisch; kein Sync zwischen Geräten
-- **Highlighting**: Auto‑Erkennung kann bei exotischen Sprachen danebenliegen
+- **Buttons/Toolbar**: Extend/customize in `index.html` in the `.toolbar` section
+- **Styles**: Inlined CSS in the `<style>` block – colors/spacing easily changeable
+- **marked/highlight.js**: Adjust versions via CDN URLs in the `<head>`
+- **Export Theme**: Customize export styles in the `downloadHTML()` function template
 
 ---
 
-## 📜 Lizenz
+## 🌐 Compatibility
 
-MIT-Lizenz. Frei verwendbar, kommerziell & privat. Über Pull Requests/Stars freue ich mich ✨
+- Modern Chromium, Firefox, and Safari versions
+- Mobile & Desktop, Responsive Layout
+
+---
+
+## ⚠️ Known Limitations
+
+- **Security**: Rendered HTML is set in preview DIV; don't insert foreign, untrusted content
+- **LocalStorage**: Content is device-specific; no sync between devices
+- **Highlighting**: Auto-detection may fail with exotic languages
+
+---
+
+## 📜 License
+
+MIT License. Free to use, commercial & private. Pull requests/stars are appreciated ✨
