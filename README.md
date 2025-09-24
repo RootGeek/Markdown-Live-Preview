@@ -1,4 +1,9 @@
-# [📝 Markdown Live Preview](https://rootgeek.github.io/Markdown-Live-Preview/)
+<h1>
+  <a href="https://rootgeek.github.io/Markdown-Live-Preview/">
+    📝 Markdown Live Preview <small><small>(Link)</small></small>
+  </a>
+</h1>
+
 
 <a href="https://postimg.cc/qNHbFpjT">
   <img src="https://i.postimg.cc/RZNkNFtN/Markdown.png"
