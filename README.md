@@ -7,7 +7,7 @@
        style="border:1px solid #000; border-radius:4px;">
 </a>
 
-Ein leichter, rein clientseitiger **Markdown‑Editor mit Live‑Vorschau**, Syntax‑Highlighting, Wort‑/Zeichenzähler, Tastenkürzeln, synchronisiertem Scrollen, **Drag‑Resize** zwischen Editor & Preview sowie **HTML‑Export** als fertige, druckfreundliche Seite – **ohne Build‑Schritt, ohne Backend**. Einfach `index.html` im Browser öffnen und losschreiben.
+Ein leichter, rein clientseitiger **Markdown‑Editor mit Live‑Vorschau**, Syntax‑Highlighting, Wort‑/Zeichenzähler, Tastenkürzeln, synchronisiertem Scrollen, **Drag‑Resize** zwischen Editor & Preview sowie **HTML‑Export** als fertige, druckfreundliche Seite – **ohne Build‑Schritt, ohne Backend**. Einfach `markdown.html` im Browser öffnen und losschreiben.
 
 ---
 
@@ -77,27 +77,9 @@ Der Button **„📄 HTML Download"** erstellt eine vollständige, eigenständig
 
 ---
 
-## 🖼️ Screenshot einbinden
-
-Der obige Screenshot zeigt die Benutzeroberfläche des Markdown Live Preview Editors. Falls Sie einen lokalen Screenshot erstellen möchten: Browser öffnen → `index.html` laden → `Strg/⌘ + Shift + S` (je nach OS) → als `docs/screenshot.png` speichern.
-
----
-
-## 🗂️ Empfohlene Struktur
-
-```
-.
-├── index.html
-├── README.md
-└── docs/
-    └── screenshot.png
-```
-
----
-
 ## 🛠️ Anpassungen
 
-- **Buttons/Toolbar**: In `index.html` im Bereich `.toolbar` erweitern/anpassen
+- **Buttons/Toolbar**: In `markdown.html` im Bereich `.toolbar` erweitern/anpassen
 - **Styles**: Inlined CSS im `<style>`‑Block – Farben/Abstände einfach änderbar
 - **marked/highlight.js**: Versionen via CDN‑URLs im `<head>` justieren
 - **Export‑Theme**: Export‑Styles im Template der `downloadHTML()`‑Funktion anpassen
